@@ -182,13 +182,13 @@ background: #fff;
 
 /* Drum photo (can crop slightly) */
 .photo-card {
-  height: 220px;
+  height: 300px;
   object-fit: cover;
 }
 
 /* Painting (no crop) */
 .art-card {
-  height: 220px;
+  height: 300px;
   object-fit: contain;
   background: #fff;
   padding: 6px;
