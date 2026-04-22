@@ -124,3 +124,10 @@ h2::after {
   background: var(--brand);
   margin-top: 6px;
 }
+body {
+  letter-spacing: -0.01em;
+}
+
+.hero-sub {
+  font-size: 1.15rem;
+}
