@@ -193,3 +193,8 @@ background: #fff;
   background: #fff;
   padding: 6px;
 }
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
