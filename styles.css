@@ -165,3 +165,31 @@ h1 {
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
   padding: 6px;
 }
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* forces side-by-side */
+  gap: 16px;
+  max-width: 650px;
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 12px;
+ border: 1px solid #e7ddd3;
+background: #fff;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+/* Drum photo (can crop slightly) */
+.photo-card {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Painting (no crop) */
+.art-card {
+  height: 220px;
+  object-fit: contain;
+  background: #fff;
+  padding: 6px;
+}
