@@ -181,12 +181,12 @@ background: #fff;
 
 /* Drum photo (can crop slightly) */
 .photo-card {
-  height: 260px;
+  height: 280px;
   object-fit: cover;
 }
 
 .art-card {
-  height: 260px;
+  height: 280px;
   object-fit: contain;
   background: #fff;
   padding: 6px;
