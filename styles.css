@@ -108,8 +108,7 @@ h2 {
 
 /* subtle section breathing */
 .page {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 20px 56px 40px 56px;
 }
 
 h2 {
