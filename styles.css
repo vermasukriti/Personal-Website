@@ -82,7 +82,7 @@ a:hover{opacity:.9}
 }
 
 .page p {
-  max-width: 720px;
+  max-width: 100%;
   margin-bottom: 16px;
 }
 
@@ -167,9 +167,9 @@ h1 {
 }
 .image-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* forces side-by-side */
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
-  max-width: 650px;
+  width: 100%;
 }
 
 .image-grid img {
