@@ -131,3 +131,14 @@ body {
 .hero-sub {
   font-size: 1.15rem;
 }
+body {
+  background: #fff8f6 !important;
+}
+
+h1 {
+  color: #c45a64 !important;
+}
+
+.page {
+  border: 4px solid #c45a64 !important;
+}
