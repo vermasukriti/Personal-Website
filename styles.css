@@ -205,3 +205,12 @@ background: #fff;
     padding: 20px;
   }
 }
+.tl-content p {
+  margin: 0.5rem 0 0;
+  max-width: 100%;
+}
+
+.tl-role {
+  font-weight: 600;
+  color: var(--muted);
+}
