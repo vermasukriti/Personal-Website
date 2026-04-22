@@ -197,3 +197,12 @@ background: #fff;
     padding: 0 20px;
   }
 }
+.page {
+  padding: 20px 72px 40px 72px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 20px;
+  }
+}
